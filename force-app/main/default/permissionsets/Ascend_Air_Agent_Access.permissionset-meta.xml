@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ascend Air Agent Access</label>
+    <description>Assign to the Agentforce agent user (and to yourself for testing). Least privilege: read/edit Booking, read Contact, create Case.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <flowAccesses><enabled>true</enabled><flow>Ascend_Air_Verify_Traveller_and_Get_Booking</flow></flowAccesses>
+    <flowAccesses><enabled>true</enabled><flow>Ascend_Air_Change_Seat</flow></flowAccesses>
+    <flowAccesses><enabled>true</enabled><flow>Ascend_Air_Log_Escalation_Case</flow></flowAccesses>
+    <flowAccesses><enabled>true</enabled><flow>Ascend_Air_Get_Policy_Article</flow></flowAccesses>
+    <objectPermissions>
+        <object>Booking__c</object>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Session__c</object>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Contact</object>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Knowledge__kav</object>
+        <allowCreate>false</allowCreate><allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Case</object>
+        <allowCreate>true</allowCreate><allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit><allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords><viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <fieldPermissions><editable>false</editable><field>Booking__c.PNR__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Booking__c.Flight_Number__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Booking__c.Departure_Date_Time__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Booking__c.Seat__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Booking__c.Cabin__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Booking__c.Fare_Class__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Knowledge__kav.Article_Body__c</field><readable>true</readable></fieldPermissions>
+    <userPermissions><enabled>true</enabled><name>AllowViewKnowledge</name></userPermissions>
+</PermissionSet>

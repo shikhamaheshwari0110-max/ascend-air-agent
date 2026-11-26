@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Booking</label>
+    <pluralLabel>Bookings</pluralLabel>
+    <nameField>
+        <label>Booking Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>BKG-{00000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <enableActivities>false</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <description>Ascend Air flight booking (one per traveller per flight). Used by the Ascend Air seat agent.</description>
+</CustomObject>

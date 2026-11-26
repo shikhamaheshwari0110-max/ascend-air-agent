@@ -1,0 +1,81 @@
+{
+  "type": "sfdc_cms__view",
+  "title": "Home",
+  "contentBody": {
+    "component": {
+      "children": [
+        {
+          "children": [
+            {
+              "attributes": {
+                "backgroundImageConfig": "",
+                "backgroundImageOverlay": "rgba(0,0,0,0)",
+                "componentSpacerSize": "",
+                "layoutDirectionDesktop": "row",
+                "layoutDirectionMobile": "column",
+                "layoutDirectionTablet": "column",
+                "maxContentWidth": "",
+                "sectionColumnGutterWidth": "",
+                "sectionConfig": "{\"UUID\":\"ec2614a1-0b33-4126-907f-4ae8992db3da\",\"columns\":[{\"UUID\":\"84a3c9dc-cb07-439c-a2cb-13ade4dc9e1c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+                "sectionMinHeight": "",
+                "sectionVerticalAlign": "flex-start"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "attributes": {
+                        "imageInfos": "",
+                        "richTextValue": "<div style=\"font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#0b2a4a;background:#f3f7fc;\">\n<div style=\"background:#0b2a4a;color:#fff;text-align:center;padding:12px 16px;font-size:14px;\">Seat and baggage questions? Our assistant is online 24/7 &middot; Use the chat button at the bottom right</div>\n<div style=\"display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:20px 40px;background:#f3f7fc;border-bottom:1px solid #dbe5f1;\">\n<div style=\"font-size:26px;font-weight:800;letter-spacing:.14em;color:#1f7ae0;\">ASCEND <span style=\"color:#e8672a;font-weight:500;letter-spacing:.04em;\">air</span></div>\n<div style=\"display:flex;gap:12px;flex-wrap:wrap;\"><a href=\"#how\" style=\"border:1.5px solid #0b2a4a;border-radius:999px;padding:10px 20px;color:#0b2a4a;font-weight:600;text-decoration:none;\">How it works</a><a href=\"#policies\" style=\"border:1.5px solid #0b2a4a;border-radius:999px;padding:10px 20px;color:#0b2a4a;font-weight:600;text-decoration:none;\">Policies</a></div></div>\n<div style=\"padding:72px 40px 64px;max-width:1100px;margin:0 auto;\">\n<div style=\"color:#e8672a;font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px;\">Seat assistant</div>\n<h1 style=\"margin:0 0 20px;font-size:52px;line-height:1.08;font-weight:700;max-width:640px;\">Your seat, sorted in one conversation.</h1>\n<p style=\"margin:0 0 28px;font-size:19px;line-height:1.6;color:#4a5b70;max-width:620px;\">Check your booking, see your seat, cabin and fare, and change your seat in minutes. Our Agentforce assistant handles it, and a colleague steps in whenever you need a person.</p>\n<div style=\"display:flex;gap:14px;flex-wrap:wrap;margin-bottom:28px;\"><span style=\"background:#1f7ae0;color:#fff;border-radius:999px;padding:14px 28px;font-weight:700;\">Chat with our assistant</span><a href=\"#how\" style=\"background:#fff;border:1px solid #dbe5f1;border-radius:999px;padding:14px 28px;font-weight:700;color:#0b2a4a;text-decoration:none;\">See how it works</a></div>\n<div style=\"color:#4a5b70;font-size:15px;\">Replies in under a minute &nbsp;&middot;&nbsp; A colleague is one message away</div></div>\n<div id=\"how\" style=\"padding:56px 40px;max-width:1100px;margin:0 auto;\">\n<h2 style=\"margin:0 0 28px;font-size:32px;\">Seat changes in three steps.</h2>\n<div style=\"display:flex;gap:20px;flex-wrap:wrap;\">\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"width:36px;height:36px;border-radius:50%;background:#0b2a4a;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:14px;\">1</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">Verify in seconds</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">Share your booking reference and last name. Nothing is shown until both match.</p></div>\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"width:36px;height:36px;border-radius:50%;background:#0b2a4a;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:14px;\">2</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">See your flight</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">We show your flight, seat, cabin and fare, so you know what can change.</p></div>\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"width:36px;height:36px;border-radius:50%;background:#0b2a4a;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:14px;\">3</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">Change your seat</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">Pick a free seat that your fare allows. Need something more? We hand you to a colleague.</p></div>\n</div></div>\n<div id=\"policies\" style=\"padding:56px 40px 72px;max-width:1100px;margin:0 auto;\">\n<h2 style=\"margin:0 0 28px;font-size:32px;\">Know before you go.</h2>\n<div style=\"display:flex;gap:20px;flex-wrap:wrap;\">\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"color:#e8672a;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;\">Seats</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">Seat selection</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">Standard seats cost INR 200 to 1,700 on domestic and INR 200 to 2,000 on international flights. Stretch seats are complimentary.</p></div>\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"color:#e8672a;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;\">Fares</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">Fare rules</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">What your fare allows for changes, cancellations and refunds, explained in plain language.</p></div>\n<div style=\"flex:1 1 240px;background:#fff;border:1px solid #dbe5f1;border-radius:16px;padding:24px;\">\n<div style=\"color:#e8672a;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;\">Baggage</div>\n<h3 style=\"margin:0 0 8px;font-size:20px;color:#0b2a4a;\">Baggage allowance</h3><p style=\"margin:0;color:#4a5b70;line-height:1.55;\">Cabin and checked baggage limits by fare, with extra-baggage options.</p></div>\n</div></div>\n<div style=\"background:#0b2a4a;color:#c9d8ea;padding:32px 40px;text-align:center;font-size:14px;\">Fly higher, together. &copy; 2026 Ascend Air. Demo site &mdash; all data is fictional.</div>\n</div>"
+                      },
+                      "definition": "community_builder:htmlEditor",
+                      "id": "cd18cf3c-fac4-4dac-b422-b86ae8a4647a",
+                      "type": "component"
+                    }
+                  ],
+                  "id": "84a3c9dc-cb07-439c-a2cb-13ade4dc9e1c",
+                  "name": "col1",
+                  "title": "Column 1",
+                  "type": "region"
+                }
+              ],
+              "definition": "community_layout:section",
+              "id": "ec2614a1-0b33-4126-907f-4ae8992db3da",
+              "type": "component"
+            }
+          ],
+          "id": "95e12ea8-e9b2-4fc8-9759-0e0905609f4c",
+          "name": "content",
+          "title": "Content",
+          "type": "region"
+        },
+        {
+          "children": [
+            {
+              "attributes": {
+                "customHeadTags": "",
+                "description": "",
+                "pageTitle": "Ascend Air - Seat assistance",
+                "recordId": "{!recordId}"
+              },
+              "definition": "community_builder:seoAssistant",
+              "id": "4ae7f746-1821-42ef-8898-239d639a31e9",
+              "type": "component"
+            }
+          ],
+          "id": "32d92076-58ec-4976-8267-f191d2d4ecc7",
+          "name": "sfdcHiddenRegion",
+          "title": "sfdcHiddenRegion",
+          "type": "region"
+        }
+      ],
+      "definition": "community_layout:sldsFlexibleLayout",
+      "id": "31e623bf-1830-4a9e-be6b-bfc4d15f71eb",
+      "type": "component"
+    },
+    "dataProviders": [],
+    "themeLayoutType": "Inner",
+    "viewType": "home"
+  },
+  "urlName": "home"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ascend Air Knowledge Author</label>
+    <description>Assign to the person who writes and publishes Ascend Air knowledge articles. Grants read/edit on the Article Body field.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <fieldPermissions><editable>true</editable><field>Knowledge__kav.Article_Body__c</field><readable>true</readable></fieldPermissions>
+</PermissionSet>

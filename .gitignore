@@ -1,0 +1,20 @@
+# Salesforce CLI local state (org auth/cache)
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+**/jsconfig.json
+coverage/
+logs
+*.log
+node_modules/
+.pmdCache
+.eslintcache
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+# Never commit org credentials or local secrets
+.env*
+*.key
+*.pem
+*.p12

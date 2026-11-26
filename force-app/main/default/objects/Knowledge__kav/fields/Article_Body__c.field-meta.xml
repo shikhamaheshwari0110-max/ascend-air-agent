@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Article_Body__c</fullName>
+    <label>Article Body</label>
+    <description>Rich text body for Ascend Air articles. Added for the Seat Assistant workshop because Knowledge__kav had no body field.</description>
+    <length>32768</length>
+    <required>false</required>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>
